@@ -4,7 +4,7 @@ public class location {
 	
 	private String location;
 	private double distance;
-	private String name;
+	
 
 	public String getLocation() {
 		return location;
@@ -22,12 +22,5 @@ public class location {
 		this.distance = distance;
 	}
 
-	public String getName() {
-		return name;
-	}
-
-	public void setName(String name) {
-		this.name = name;
-	}
 
 }

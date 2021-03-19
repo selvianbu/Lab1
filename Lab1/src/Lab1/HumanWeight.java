@@ -3,22 +3,22 @@ package Lab1;
 public class HumanWeight {
 	
 	//attributes declaration
-		protected double weightOnEarth;
-		protected double weightOnMars;
+		protected static double weightOnEarth;
+		protected static double weightOnMars;
 
 		//constructor of class
 		public HumanWeight (double weightOnEarth) 
 		{
-			this.weightOnEarth=weightOnEarth;
+			HumanWeight.weightOnEarth=weightOnEarth;
 		}
 
 		//setter and getter for weightOnEarth
 		public void setWeightOnEarth (double weightOnEarth)
 		{
-			this.weightOnEarth=weightOnEarth;
+			HumanWeight.weightOnEarth=weightOnEarth;
 		}
 		
-		public double getWeightOnEarth ()
+		public static double getWeightOnEarth ()
 		{
 			return weightOnEarth;
 		}
@@ -26,10 +26,10 @@ public class HumanWeight {
 		//setter and getter for weightOnMars
 		public void setWeightOnMars (double weightOnMars)
 		{
-			this.weightOnMars=weightOnMars;
+			HumanWeight.weightOnMars=weightOnMars;
 		}
 		
-		public double getWeightOnMars ()
+		public static double getWeightOnMars ()
 		{
 			return weightOnMars;
 		}

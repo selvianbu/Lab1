@@ -9,7 +9,7 @@ public class Exe8 {
 		// TODO Auto-generated method stub
 
 		//set weight for person 1 and display the weight on earth and mars
-		HumanWeight weight1 = new HumanWeight(60);
+		HumanWeight weight1 = new HumanWeight(55);
 		weight1.calculateWeightOnMars();
 		
 		System.out.println("Weight on earth: " + HumanWeight.getWeightOnEarth());
@@ -18,7 +18,7 @@ public class Exe8 {
 		System.out.print("\n\n");
 		
 		//set weight for person 2 and display the weight on earth and mars
-		HumanWeight weight2 = new HumanWeight(70);
+		HumanWeight weight2 = new HumanWeight(85);
 		weight2.calculateWeightOnMars();
 		
 		System.out.println("Weight on earth: " + HumanWeight.getWeightOnEarth());
